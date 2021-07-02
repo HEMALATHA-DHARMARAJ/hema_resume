@@ -1,0 +1,208 @@
+body{
+	background: #87cefa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 900px;
+	min-height: 900px;
+	background: #fff;
+	display: grid;
+	margin: 20px;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side{
+	position: relative;
+	background: #003147;
+	padding: 50px;
+	color: #fff;
+}
+.profile{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	border-bottom:1px solid rgba(255,255,255,0.2);
+		
+}
+.profile .image{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.profile .image img{
+	position: absolute;
+	top:0;
+    right:  0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile h2 {
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.0em;
+
+}
+.profile h2 span{
+	font-size: 0.8em;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+ hr {
+	color: #fff;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.contact{
+	color: #fff;
+}
+.title{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.contact ul{
+	position: relative;
+}
+.contact ul li{
+	
+	list-style: none;
+	margin: 5px 0;
+	cursor: pointer;
+}
+/*.contact ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #03a9f4;
+}*/
+.contact ul li span{
+	font-weight: 300;
+}
+.education{
+	color: #fff;
+}
+.education ul li  {
+	list-style: none;
+	cursor: pointer;
+}
+.education ul li span{
+	color: #03a9fa;
+	font-size: 20px;
+
+}
+.education h5 {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.lanuage .percent{
+	position: relative;
+	width: 50%;
+	height: 6px;
+	background: #03a9fa;
+	display: block;
+	margin-top: 5px;
+
+}
+.container .right_side{
+	position: relative;
+	background: rgb(191, 243, 219);
+	padding: 40px;
+}
+.SKILLS{
+	color: rgb(2, 1, 14);
+}
+.SKILLS ul li  {
+	list-style: none;
+	cursor: pointer;
+}
+.SKILLS ul li span{
+	color: #1d051881;
+	font-size: 20px;
+
+}
+.SKILLS h3{
+	font-weight: 500;
+	text-transform: uppercase;
+	
+}
+.CERTIFICATES{
+	color: rgb(2, 1, 14);
+
+}
+.CERTIFICATES ul li  {
+	list-style: none;
+	cursor: pointer;
+}
+.CERTIFICATES ul li span{
+	color: #1d051881;
+	font-size: 20px;
+
+}
+.CERTIFICATES h3{
+	font-weight: 500;
+	text-transform: uppercase;
+	
+}
+.PROJECTS{
+	color: rgb(2, 1, 14);
+
+}
+.PROJECTS ul li  {
+	list-style: none;
+	cursor: pointer;
+}
+.PROJECTS ul li span{
+	color: #1d051881;
+	font-size: 20px;
+
+}
+.PROJECTS h3{
+	font-weight: 500;
+	text-transform: uppercase;
+	
+}
+.HOBBIES{
+	color: rgb(2, 1, 14);
+
+}
+.HOBBIES ul li  {
+	list-style: none;
+	cursor: pointer;
+}
+.HOBBIES ul li span{
+	color: #1d051881;
+	font-size: 20px;
+
+}
+.HOBBIES h3{
+	font-weight: 500;
+	text-transform: uppercase;
+	
+}
+.Main OBJECTIVE{
+	color: rgb(2, 1, 14);
+
+}
+.Main  h3{
+	font-weight: 500;
+	text-transform: uppercase;
+	
+}
+.Main p{
+	color: #1d051881;
+	font-size: 20px;
+
+}
